@@ -8,14 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2A49AF3525A856CD006C91EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49AF3425A856CD006C91EF /* AppDelegate.m */; };
-		2A49AF3825A856CD006C91EF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49AF3725A856CD006C91EF /* SceneDelegate.m */; };
-		2A49AF3B25A856CD006C91EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49AF3A25A856CD006C91EF /* ViewController.m */; };
+		2A49AF3B25A856CD006C91EF /* WBShakeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49AF3A25A856CD006C91EF /* WBShakeDemoViewController.m */; };
 		2A49AF3E25A856CD006C91EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A49AF3C25A856CD006C91EF /* Main.storyboard */; };
 		2A49AF4025A856CE006C91EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A49AF3F25A856CE006C91EF /* Assets.xcassets */; };
 		2A49AF4325A856CE006C91EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A49AF4125A856CE006C91EF /* LaunchScreen.storyboard */; };
 		2A49AF4625A856CE006C91EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49AF4525A856CE006C91EF /* main.m */; };
 		2A49AF5025A856CF006C91EF /* WBShakeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49AF4F25A856CF006C91EF /* WBShakeDemoTests.m */; };
 		2A49AF5B25A856CF006C91EF /* WBShakeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49AF5A25A856CF006C91EF /* WBShakeDemoUITests.m */; };
+		2A49AF7425A85C44006C91EF /* WBShakeOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49AF7325A85C44006C91EF /* WBShakeOneViewController.m */; };
+		2A49AF7A25A85C54006C91EF /* WBShakeTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49AF7925A85C54006C91EF /* WBShakeTwoViewController.m */; };
+		2A49AF8025A85E86006C91EF /* ZZRHapticFeedbackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49AF7F25A85E86006C91EF /* ZZRHapticFeedbackManager.m */; };
+		2A49AF8625A87377006C91EF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A49AF8525A87377006C91EF /* AudioToolbox.framework */; };
+		2A49AF9825A957BD006C91EF /* WBShakeLongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49AF9725A957BD006C91EF /* WBShakeLongViewController.m */; };
+		2A49AFA125A98D20006C91EF /* WBShakeThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A49AFA025A98D20006C91EF /* WBShakeThreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +44,8 @@
 		2A49AF3025A856CD006C91EF /* WBShakeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBShakeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A49AF3325A856CD006C91EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2A49AF3425A856CD006C91EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2A49AF3625A856CD006C91EF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		2A49AF3725A856CD006C91EF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		2A49AF3925A856CD006C91EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2A49AF3A25A856CD006C91EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2A49AF3925A856CD006C91EF /* WBShakeDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBShakeDemoViewController.h; sourceTree = "<group>"; };
+		2A49AF3A25A856CD006C91EF /* WBShakeDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBShakeDemoViewController.m; sourceTree = "<group>"; };
 		2A49AF3D25A856CD006C91EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A49AF3F25A856CE006C91EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A49AF4225A856CE006C91EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,17 @@
 		2A49AF5625A856CF006C91EF /* WBShakeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBShakeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A49AF5A25A856CF006C91EF /* WBShakeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBShakeDemoUITests.m; sourceTree = "<group>"; };
 		2A49AF5C25A856CF006C91EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A49AF7225A85C44006C91EF /* WBShakeOneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBShakeOneViewController.h; sourceTree = "<group>"; };
+		2A49AF7325A85C44006C91EF /* WBShakeOneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBShakeOneViewController.m; sourceTree = "<group>"; };
+		2A49AF7825A85C54006C91EF /* WBShakeTwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBShakeTwoViewController.h; sourceTree = "<group>"; };
+		2A49AF7925A85C54006C91EF /* WBShakeTwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBShakeTwoViewController.m; sourceTree = "<group>"; };
+		2A49AF7E25A85E86006C91EF /* ZZRHapticFeedbackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRHapticFeedbackManager.h; sourceTree = "<group>"; };
+		2A49AF7F25A85E86006C91EF /* ZZRHapticFeedbackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRHapticFeedbackManager.m; sourceTree = "<group>"; };
+		2A49AF8525A87377006C91EF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2A49AF9625A957BD006C91EF /* WBShakeLongViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBShakeLongViewController.h; sourceTree = "<group>"; };
+		2A49AF9725A957BD006C91EF /* WBShakeLongViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBShakeLongViewController.m; sourceTree = "<group>"; };
+		2A49AF9F25A98D20006C91EF /* WBShakeThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBShakeThreeViewController.h; sourceTree = "<group>"; };
+		2A49AFA025A98D20006C91EF /* WBShakeThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBShakeThreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A49AF8625A87377006C91EF /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +103,7 @@
 				2A49AF4E25A856CF006C91EF /* WBShakeDemoTests */,
 				2A49AF5925A856CF006C91EF /* WBShakeDemoUITests */,
 				2A49AF3125A856CD006C91EF /* Products */,
+				2A49AF8425A87376006C91EF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,10 +122,18 @@
 			children = (
 				2A49AF3325A856CD006C91EF /* AppDelegate.h */,
 				2A49AF3425A856CD006C91EF /* AppDelegate.m */,
-				2A49AF3625A856CD006C91EF /* SceneDelegate.h */,
-				2A49AF3725A856CD006C91EF /* SceneDelegate.m */,
-				2A49AF3925A856CD006C91EF /* ViewController.h */,
-				2A49AF3A25A856CD006C91EF /* ViewController.m */,
+				2A49AF3925A856CD006C91EF /* WBShakeDemoViewController.h */,
+				2A49AF3A25A856CD006C91EF /* WBShakeDemoViewController.m */,
+				2A49AF9625A957BD006C91EF /* WBShakeLongViewController.h */,
+				2A49AF9725A957BD006C91EF /* WBShakeLongViewController.m */,
+				2A49AF7225A85C44006C91EF /* WBShakeOneViewController.h */,
+				2A49AF7325A85C44006C91EF /* WBShakeOneViewController.m */,
+				2A49AF7825A85C54006C91EF /* WBShakeTwoViewController.h */,
+				2A49AF7925A85C54006C91EF /* WBShakeTwoViewController.m */,
+				2A49AF9F25A98D20006C91EF /* WBShakeThreeViewController.h */,
+				2A49AFA025A98D20006C91EF /* WBShakeThreeViewController.m */,
+				2A49AF7E25A85E86006C91EF /* ZZRHapticFeedbackManager.h */,
+				2A49AF7F25A85E86006C91EF /* ZZRHapticFeedbackManager.m */,
 				2A49AF3C25A856CD006C91EF /* Main.storyboard */,
 				2A49AF3F25A856CE006C91EF /* Assets.xcassets */,
 				2A49AF4125A856CE006C91EF /* LaunchScreen.storyboard */,
@@ -135,6 +159,14 @@
 				2A49AF5C25A856CF006C91EF /* Info.plist */,
 			);
 			path = WBShakeDemoUITests;
+			sourceTree = "<group>";
+		};
+		2A49AF8425A87376006C91EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A49AF8525A87377006C91EF /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A49AF3B25A856CD006C91EF /* ViewController.m in Sources */,
+				2A49AF3B25A856CD006C91EF /* WBShakeDemoViewController.m in Sources */,
 				2A49AF3525A856CD006C91EF /* AppDelegate.m in Sources */,
+				2A49AF9825A957BD006C91EF /* WBShakeLongViewController.m in Sources */,
+				2A49AFA125A98D20006C91EF /* WBShakeThreeViewController.m in Sources */,
 				2A49AF4625A856CE006C91EF /* main.m in Sources */,
-				2A49AF3825A856CD006C91EF /* SceneDelegate.m in Sources */,
+				2A49AF8025A85E86006C91EF /* ZZRHapticFeedbackManager.m in Sources */,
+				2A49AF7A25A85C54006C91EF /* WBShakeTwoViewController.m in Sources */,
+				2A49AF7425A85C44006C91EF /* WBShakeOneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,14 +478,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWC59669AK;
 				INFOPLIST_FILE = WBShakeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = eqrtertwer.WBShakeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -459,14 +497,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FWC59669AK;
 				INFOPLIST_FILE = WBShakeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = eqrtertwer.WBShakeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
